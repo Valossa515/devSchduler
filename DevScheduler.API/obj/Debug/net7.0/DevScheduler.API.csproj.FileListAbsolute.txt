@@ -1,0 +1,7 @@
+C:\Users\fe_mm\source\repos\DevScheduler\DevScheduler.API\obj\Debug\net7.0\DevScheduler.API.csproj.AssemblyReference.cache
+C:\Users\fe_mm\source\repos\DevScheduler\DevScheduler.API\obj\Debug\net7.0\DevScheduler.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fe_mm\source\repos\DevScheduler\DevScheduler.API\obj\Debug\net7.0\DevScheduler.API.AssemblyInfoInputs.cache
+C:\Users\fe_mm\source\repos\DevScheduler\DevScheduler.API\obj\Debug\net7.0\DevScheduler.API.AssemblyInfo.cs
+C:\Users\fe_mm\source\repos\DevScheduler\DevScheduler.API\obj\Debug\net7.0\DevScheduler.API.csproj.CoreCompileInputs.cache
+C:\Users\fe_mm\source\repos\DevScheduler\DevScheduler.API\obj\Debug\net7.0\DevScheduler.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\fe_mm\source\repos\DevScheduler\DevScheduler.API\obj\Debug\net7.0\DevScheduler.API.MvcApplicationPartsAssemblyInfo.cache
