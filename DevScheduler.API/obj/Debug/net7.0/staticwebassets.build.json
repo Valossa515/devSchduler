@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "BQTwDZuSOK+WBNRpRBF/wYzb4tMa1dZEvKRDGLWY87A=",
+  "Source": "DevScheduler.API",
+  "BasePath": "_content/DevScheduler.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
