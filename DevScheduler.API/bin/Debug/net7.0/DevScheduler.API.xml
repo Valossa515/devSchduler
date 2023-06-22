@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DevScheduler.API</name>
+    </assembly>
+    <members>
+        <member name="M:DevScheduler.API.Controllers.DevScheduleController.GetAll">
+            <summary>
+            Obter todos os eventos
+            </summary>
+            <returns>Coleção de eventos</returns>
+            <response code="200">Sucesso</response>
+        </member>
+        <member name="M:DevScheduler.API.Controllers.DevScheduleController.GetById(System.Guid)">
+            <summary>
+            Obter um evento
+            </summary>
+            <param name="id">Identificador do evento</param>
+            <returns>Dados do evento</returns>
+            <response code="200">Sucesso</response>
+            <response code="404">Não encontrado</response>
+        </member>
+        <member name="M:DevScheduler.API.Controllers.DevScheduleController.Post(DevScheduler.API.Entities.DevSchedule)">
+            <summary>
+            Cadastrar um evento
+            </summary>
+            <remarks>
+            {"title":"string","description":"string","startDate":"2023-02-27T17:59:14.141Z","endDate":"2023-02-27T17:59:14.141Z"}
+            </remarks>
+            <param name="devSchedule">Dados do evento</param>
+            <returns>Objeto recém-criado</returns>
+            <response code="201">Sucesso</response>
+        </member>
+        <member name="M:DevScheduler.API.Controllers.DevScheduleController.Update(System.Guid,DevScheduler.API.Entities.DevSchedule)">
+            <summary>
+            Atualizar um evento
+            </summary>
+            <remarks>
+            {"title":"string","description":"string","startDate":"2023-02-27T17:59:14.141Z","endDate":"2023-02-27T17:59:14.141Z"}
+            </remarks>
+            <param name="id">Identificador do evento</param>
+            <param name="input">Dados do evento</param>
+            <returns>Nada.</returns>
+            <response code="404">Não encontrado.</response>
+            <response code="204">Sucesso</response>
+        </member>
+        <member name="M:DevScheduler.API.Controllers.DevScheduleController.Delete(System.Guid)">
+            <summary>
+            Deletar um evento
+            </summary>
+            <param name="id">Identificador de evento</param>
+            <returns>Nada</returns>
+            <response code="404">Não encontrado</response>
+            <response code="204">Sucesso</response>
+        </member>
+        <member name="M:DevScheduler.API.Controllers.DevScheduleController.PostSpeaker(System.Guid,DevScheduler.API.Entities.DevScheduleSpeaker)">
+            <summary>
+            Cadastrar palestrante
+            </summary>
+            <remarks>
+            {"name":"string","talkTitle":"string","talkDescription":"string","linkedInProfile":"string"}
+            </remarks>
+            <param name="id">Identificador do evento</param>
+            <param name="speaker">Dados do palestrante</param>
+            <returns>Nada</returns>
+            <response code="204">Sucesso</response>
+            <response code="404">Evento não encontrado</response>
+        </member>
+        <member name="T:DevScheduler.API.Persistence.Migrations.FirstMigration">
+            <inheritdoc />
+        </member>
+        <member name="M:DevScheduler.API.Persistence.Migrations.FirstMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:DevScheduler.API.Persistence.Migrations.FirstMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:DevScheduler.API.Persistence.Migrations.FirstMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
